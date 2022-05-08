@@ -55,7 +55,7 @@ emotions_emoji_dict={"anger":"😠", "fear":"😨", "happy":"🤗", "sadness":"�
 
 
 def main():
-    st.title("Emotion Classifier App")
+    st.title("Sentiment Detection App")
     menu=["Home", "Monitor", "About"]
     choice=st.sidebar.selectbox("Menu", menu)
     create_page_visited_table()
@@ -63,7 +63,7 @@ def main():
     
     if choice == "Home":
         add_page_visited_details("Home", datetime.now())
-        st.subheader("Home-Emotion In Text")
+        st.subheader("Input Text")
         
         with st.form(key='emotion_clf_form'):
             raw_text=st.text_area("Type Here")

@@ -1,4 +1,4 @@
 # Sentiment-Detection
 
-App link: (App cannot see on the link due to Heroku pricing limitation)
-[https://sentdt.herokuapp.com/]
+App link:
+[[https://sentdt.herokuapp.com/](https://sentiment-detection-jjz8pvd9vpcqhxhs2akmt9.streamlit.app/)]
